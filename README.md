@@ -1,4 +1,4 @@
-# BlogWebsite-nodejs-mongodb
+# BlogWebsite
 
 A Blog website made using Nodejs-and MongoDB
 
