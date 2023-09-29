@@ -1,0 +1,26 @@
+
+<%- include("partials/header"); -%>
+    <h1>Compose</h1>
+    <form class="" action="/compose" method="post" onsubmit="return validatePublish()">
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" id="inputField" name="postTitle">
+        <label>Post</label>
+        <textarea class="form-control" id="textField" name="postBody" rows="5" cols="30"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+
+    <script>
+      function validatePublish() {
+      var titleValue = document.getElementById("inputField").value;
+      var postValue = document.getElementById("textField").value;
+      if(titleValue.trim() === "" || postValue.trim() === "") {
+        alert("Please fill both title and content");
+        return false;
+      }
+      return true;
+    }
+    </script>
+
+<%- include("partials/footer"); -%>

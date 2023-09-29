@@ -1,0 +1,22 @@
+
+</div>
+<div class="footer-padding"></div>
+  <div class="footer">
+    <p> © Copyright by Vijay 2023 </p>
+  </div>
+</div>
+
+<script>
+  function validatePublish() {
+    var titleValue = document.getElementById("inputField").value;
+    var postValue = document.getElementById("textField").value;
+    if(titleValue.trim() === "" || postValue.trim() === "") {
+      alert("Please fill both title and content");
+      return false;
+    }
+    return true;
+  }
+</script>
+
+</body>
+</html>
