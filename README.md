@@ -44,4 +44,4 @@ To run tests, run the following command
 
 And go to `localhost:3000` on your browser to check if the project is working.
 
-# ANd hurray your Daily Journal is now in your hands 🚀
+# And hurray your Daily Journal is now in your hands 🚀
