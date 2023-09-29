@@ -7,6 +7,15 @@ p {
   font-size: 15px; 
 }
 
+.about {
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -45,7 +54,7 @@ p {
 
 .footer p {
 	margin-top: 25px;
-	font-size: 12px;
+	font-size: 15px;
   color: #fff;
 }
 

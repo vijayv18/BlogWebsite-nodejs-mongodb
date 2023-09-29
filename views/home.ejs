@@ -1,20 +1,16 @@
 
 <%- include("partials/header"); -%>
-    <button class="btn btn-primary" onclick="window.location.href='/compose';">
+  <br><button class="btn btn-primary" onclick="window.location.href='/compose';">
       <i class="bi bi-pencil"></i> Compose  
     </button><br><br>
-    <h3>Welcome to my Daily Journal 📝</h3>
-    <p> <%= startingContent %> </p>
 
-
-  <%  posts.forEach(function(post){ %>
+  <% posts.forEach(function(post){ %>
 
     <h3><%=post.title%></h3>
     <p>
     <%=post.content.substring(0, 250) + " ..."%>
     <a href="/posts/<%=post._id%>">Read More</a>
     </p>
-
 
     <% }) %>
 
